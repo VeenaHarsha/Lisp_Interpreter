@@ -32,7 +32,6 @@ const calcArithOps = input => {
       input = validNum[1];
       input = input.trim()
     }
-    console.log(validNumList);
     result = validOps[op](validNumList);
   }
   return result;
